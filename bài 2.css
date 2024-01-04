@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 30px;
+}
+.header-list-item{
+    display: flex;
+    gap: 20px;
+}
+.header-item{
+    list-style: none;
+    color: #fff;
+    gap: 10px;
+}
+.search{
+    position: relative;
+    width: 100%;
+}
+.icon-search{
+    position: absolute;
+    right: 6px;
+    color: black;
+    
+}
